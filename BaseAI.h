@@ -49,6 +49,8 @@ public:
   int sporeRate();
   ///The maximum number of spores a player can have
   int maxSpores();
+  ///The range of uproot
+  int uprootRange();
   
   BaseAI(Connection* c);
   virtual ~BaseAI();
