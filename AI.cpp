@@ -48,6 +48,7 @@ bool AI::run()
   for (int j = 0; j < myPlants.size(); j++)
   {
     Plant& plant = *myPlants[j];
+    plant.talk("feed me Seymour!!");
     //only try radiating if it's possible
     if(plant.radiatesLeft() > 0)
     {
